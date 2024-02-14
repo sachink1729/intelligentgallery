@@ -12,4 +12,4 @@ To start the app:
 
 Run:
 
-python ./src/app.py
+python ./app.py
