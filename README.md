@@ -15,6 +15,15 @@ To start the app, Run:
 python ./app.py
 ```
 --------------------------------------------------------------------------------------------------------
+# How to
+## 1. Text search on images.
+![](https://raw.githubusercontent.com/sachink1729/intelligentgallery/main/demos/text%20search%20on%20images.gif)
+
+## 2. Upload a new Image.
+![](https://raw.githubusercontent.com/sachink1729/intelligentgallery/main/demos/upload%20new%20image.gif)
+
+## 3. Deduplication
+![](https://raw.githubusercontent.com/sachink1729/intelligentgallery/main/demos/duplicate%20image.gif)
 
 # Built using:
 1) Qdrant: https://qdrant.tech/
