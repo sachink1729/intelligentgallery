@@ -14,7 +14,8 @@ To start the app:
 
 Run:
 
-python ./app.py
+'''python ./app.py'''python
+--------------------------------------------------------------------------------------------------------
 
 # Built using:
 1) Qdrant: https://qdrant.tech/
