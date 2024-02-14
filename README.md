@@ -25,6 +25,6 @@ python ./app.py
 
 ![alt text](https://avatars.githubusercontent.com/u/51063788?s=200&v=4)
 
-4) SentenceTransformers: https://huggingface.co/sentence-transformers
+3) SentenceTransformers: https://huggingface.co/sentence-transformers
 
 ![alt text](https://aeiljuispo.cloudimg.io/v7/https://cdn-uploads.huggingface.co/production/uploads/1609621322398-5eff4688ff69163f6f59e66c.png?w=200&h=200&f=face)
