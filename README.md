@@ -6,15 +6,14 @@
 -------------------------------------------------------------------------------------------------------
 # Get started!
 
-To clone this repo use:
-
+To clone this repo, use:
+```
 git clone https://github.com/sachink1729/intelligentgallery.git
-
-To start the app:
-
-Run:
-
-'''python ./app.py'''python
+```
+To start the app, Run:
+```
+python ./app.py
+```
 --------------------------------------------------------------------------------------------------------
 
 # Built using:
