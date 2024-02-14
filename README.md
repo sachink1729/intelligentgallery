@@ -16,4 +16,4 @@ python ./app.py
 
 Built using Qdrant: https://qdrant.tech/
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fqdrant.tech%2F&psig=AOvVaw3apgQTeeE5DKQwg30cZRf2&ust=1707998834734000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDQ79DlqoQDFQAAAAAdAAAAABAE)
+![alt text](https://raw.githubusercontent.com/qdrant/qdrant/master/docs/logo.svg)
