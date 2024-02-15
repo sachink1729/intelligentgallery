@@ -25,7 +25,7 @@ python ./app.py
 ```
 
 Original device specs are: i5 10th gen + 1650 Nvidia GTX + 16GB RAM. 
-**GPU is only needed for encoder Sentence Transformer model.**
+**GPU is only used for encoder Sentence Transformer model, which can be run on CPU as well!**
 
 --------------------------------------------------------------------------------------------------------
 # How to
