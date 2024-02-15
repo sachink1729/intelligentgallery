@@ -1,5 +1,5 @@
 """
-    Description: Intelligent Gallery app iniator.
+    Description: Intelligent Gallery App.
     Author: Sachin Khandewal
     Email: sachinkhandewal5@gmail.com
 """
