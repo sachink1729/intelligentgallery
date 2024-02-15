@@ -8,6 +8,10 @@
 -------------------------------------------------------------------------------------------------------
 # Get started!
 
+Original device specs are: i5 10th gen + 1650 Nvidia GTX + 16GB RAM.
+
+**GPU is only used for encoder Sentence Transformer model, which can be run on CPU as well!**
+
 1. To clone this repo, use:
 ```
 git clone https://github.com/sachink1729/intelligentgallery.git
@@ -23,9 +27,6 @@ pip install -r requirements.txt
 ```
 python ./app.py
 ```
-
-Original device specs are: i5 10th gen + 1650 Nvidia GTX + 16GB RAM. 
-**GPU is only used for encoder Sentence Transformer model, which can be run on CPU as well!**
 
 --------------------------------------------------------------------------------------------------------
 # How to
