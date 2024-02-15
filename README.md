@@ -8,11 +8,18 @@
 -------------------------------------------------------------------------------------------------------
 # Get started!
 
-To clone this repo, use:
+1. To clone this repo, use:
 ```
 git clone https://github.com/sachink1729/intelligentgallery.git
 ```
-To start the app, Run:
+
+2. Install the necessary requirements run:
+
+```
+install -r requirements.txt
+```
+
+3. To start the app, Run:
 ```
 python ./app.py
 ```
