@@ -23,6 +23,10 @@ pip install -r requirements.txt
 ```
 python ./app.py
 ```
+
+Original device specs are: i5 10th gen + 1650 Nvidia GTX + 16GB RAM. 
+**GPU is only needed for encoder Sentence Transformer model.**
+
 --------------------------------------------------------------------------------------------------------
 # How to
 ## 1. Text search on images.
