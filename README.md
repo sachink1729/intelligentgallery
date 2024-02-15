@@ -13,10 +13,10 @@
 git clone https://github.com/sachink1729/intelligentgallery.git
 ```
 
-2. Install the necessary requirements run:
+2. Install the necessary requirements, run in terminal:
 
 ```
-install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 3. To start the app, Run:
