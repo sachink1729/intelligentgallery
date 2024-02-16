@@ -4,6 +4,8 @@
 
 ### Well if you want to build such an app that also supports uploading new images and deduplication, you are in the right place!
 
+For reading a step by step guide use: https://medium.com/@SachinKhandewal/intelligent-image-gallery-with-uploads-deduplication-and-text-based-search-using-vector-db-qdrant-6bca4190653b
+
 ![](https://raw.githubusercontent.com/sachink1729/intelligentgallery/main/demos/gallery%20preview.gif)
 -------------------------------------------------------------------------------------------------------
 # Get started!
