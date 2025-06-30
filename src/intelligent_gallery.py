@@ -17,7 +17,7 @@ class IntelligentGallery:
     def semantic_search(self,input):
         scores=[]
         outs=[]
-        for hit in self.qdrant_obj.search(input,k=3):
+        for hit in self.qdrant_obj.search(input):
             scores.append(hit.score)
             outs.append(self.qdrant_obj.df['image'][hit.payload['animal']])
         return outs, scores
@@ -40,11 +40,7 @@ class IntelligentGallery:
 
     def output_when_text_input(self,input):
         msg=""
-        outs=[]
-        scores=[]
-        for hit in self.qdrant_obj.search(input,k=3):
-            scores.append(hit.score)
-            outs.append(self.qdrant_obj.df['image'][hit.payload['animal']])
+        outs, scores = self.semantic_search(input=input)
         msg = f"Matches fetched with the scores: {scores}."
         return [outs, msg]
     
@@ -55,7 +51,7 @@ class IntelligentGallery:
 
     """ Gradio UI initiator runs in public and local mode. """
 
-    def gradio_ui(self, mode="local"):
+    def gradio_ui(self, mode):
         with gr.Blocks() as demo:
             with gr.Tab("SMART GALLERY"):
                 with gr.Row():
@@ -77,7 +73,7 @@ class IntelligentGallery:
         if mode == 'public':
             demo.launch(share=True)
         else:
-            demo.launch()
+            demo.launch(host="0.0.0.0", port=8080)
 
 if __name__ == "__main__":
     int_gallery = IntelligentGallery("cats_and_dogs")
